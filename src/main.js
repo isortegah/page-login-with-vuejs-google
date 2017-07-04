@@ -4,6 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import GoogleAuth from 'vue-google-oauth'
+Vue.use(GoogleAuth, { client_id: '1033492548812-t5vauodlqmjre5ohb2ledqbr3nfdi71s.apps.googleusercontent.com' })
+Vue.googleAuth().load()
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
