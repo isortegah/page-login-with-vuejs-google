@@ -25,6 +25,7 @@ export default {
   },
   methods: {
     signIn: function () {
+      Vue.googleAuth().directAccess()
       Vue.googleAuth().signIn(this.onSignInSuccess, this.onSignInError)
     },
     onSignInSuccess: function (authorizationCode) {
