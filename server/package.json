@@ -1,0 +1,21 @@
+{
+  "name": "server-static-vuejs",
+  "version": "0.1.0",
+  "description": "Servidor express que expone el siti generado con Vuejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "vuejs",
+    "static"
+  ],
+  "author": "ISORTEGAH",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.6",
+    "serve-static": "^1.12.4"
+  }
+}

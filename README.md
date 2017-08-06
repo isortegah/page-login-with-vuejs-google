@@ -28,3 +28,17 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## Docker
+
+* Borrado de contenedores 
+```
+docker ps -a | egrep Exited | cut -d ' ' -f 1|xargs docker rm
+```
+
+* Borrar imagenes < none >
+
+```
+docker images | egrep none | cut -c 41-53| xargs docker rmi
+```
