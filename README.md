@@ -1,34 +1,40 @@
-# page-login-with-vuejs-google
+# Page-login-with-vuejs-google
 
-> A Vue.js project
-
+## Descripción
+Ejercicio de creación de una pagina de `login` con Vuejs y OAuth via Google.
+- - -
 ## Build Setup
 
 ``` bash
-# install dependencies
+
+# Instalar vuejs-cli
+npm install -g vue-cli
+
+# Crear proyecto
+
+vue init webpack my-project
+
+# Ingresar al proyecto
+cd my-project
+
+# Instalar dependencias
 npm install
 
-# serve with hot reload at localhost:8080
+# Ejecutar proyecto base
 npm run dev
 
-# build for production with minification
+# Construir versión producción
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
+# Correr pruebas unitarias
 npm run unit
 
-# run e2e tests
+# Correr pruebas e2e
 npm run e2e
 
-# run all tests
+# Correr todas las pruebas
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 
 ## Docker
 
